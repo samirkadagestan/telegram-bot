@@ -7,7 +7,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 TOKEN = os.getenv("8072082871:AAGzbtK7On3xiQb8vI8V38DuZjD2YI8JiTk")
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=8072082871:AAGzbtK7On3xiQb8vI8V38DuZjD2YI8JiTk)
 dp = Dispatcher()
 
 # --- КНОПКИ ---
@@ -47,3 +47,4 @@ async def main():
 
 if name == "__main__":
     asyncio.run(main())
+
